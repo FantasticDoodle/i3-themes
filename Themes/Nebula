@@ -1,0 +1,26 @@
+# This theme is designed to work with this wallpaper/background: https://i.redd.it/rwbgvaa6v8q51.jpg
+
+# Note: you will have to add all your other configuration for i3bar in the same bar brackets or else you will have two bars.
+
+
+
+
+
+########################
+#				Colors         #
+########################
+# Configure i3bar
+
+bar {
+
+colors {
+     focused_workspace #b7ebff #76aad1 #000000
+     inactive_workspace #23152d #000000 #ffffff
+     background #000000
+}
+}
+# Colors
+
+client.focused          #6366aa #6366aa #6366aa #6366aa #6366aar
+client.unfocused        #b7ebff #b7ebff #b7ebff #b7ebff   #b7ebff
+

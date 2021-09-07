@@ -1,0 +1,24 @@
+#This theme is designed to go with this wallpaper/background: https://www.reddit.com/r/wallpaper/comments/pjbjw9/abstract_nebula_3840x2160/
+
+#Note: you will have to put in any other bar configuration in the same bar brackets or else you will have two bars.
+
+
+
+
+########################
+#				Colors                  #
+########################
+# Configure i3bar
+
+bar {
+
+colors {
+     focused_workspace #1f0e39 #2c183b #ffffff
+     inactive_workspace #000000 #000000 #ffffff
+     background #000000
+}
+}
+# Colors
+
+client.focused          #6366aa #6366aa #6366aa #6366aa #6366aar
+client.unfocused        #b7ebff #b7ebff #b7ebff #b7ebff   #b7ebff

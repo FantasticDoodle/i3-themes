@@ -7,15 +7,15 @@
 
 
 ########################
-#				Colors         #
+#	   Colors         #
 ########################
 # Configure i3bar
 
 bar {
 
 colors {
-     focused_workspace #b7ebff #76aad1 #000000
-     inactive_workspace #23152d #000000 #ffffff
+    focused_workspace #b7ebff #242e4b   #d39bcb
+     inactive_workspace  #32174d #000000 #ffffff
      background #000000
 }
 }

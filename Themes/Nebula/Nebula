@@ -1,1 +1,16 @@
+########################
+#				Colors         #
+########################
+# Configure i3bar
 
+bar {
+colors {
+       focused_workspace #b7ebff #242e4b   #d39bcb
+     inactive_workspace  #000000 #000000 #ffffff
+     background #2f2e34
+}
+}
+# Colors
+
+client.focused             #b7ebff #b7ebff #b7ebff #b7ebff   #b7ebff 
+client.unfocused         #6366aa #6366aa #6366aa #6366aa #6366aa

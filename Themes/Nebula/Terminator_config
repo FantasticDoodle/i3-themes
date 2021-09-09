@@ -1,0 +1,37 @@
+[global_config]
+  tab_position = hidden
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#0a000d"
+    background_darkness = 0.75
+    background_type = transparent
+    cursor_shape = underline
+    cursor_color = "#c8c8c8"
+    font = Monospace 16
+    foreground_color = "#99c1f1"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000000:#aa0000:#613583:#62a0ea:#0000aa:#aa00aa:#dc8add:#aaaaaa:#555555:#ff5555:#c061cb:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_system_font = False
+  [[Hacker]]
+    background_darkness = 0.0
+    cursor_shape = underline
+    cursor_color = "#aaaaaa"
+    font = Monospace 10
+    foreground_color = "#00ff00"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000cd:#cd00cd:#00cdcd:#faebd7:#404040:#ff0000:#00ff00:#ffff00:#0000ff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+      command = ""
+[plugins]
